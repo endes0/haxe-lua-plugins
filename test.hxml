@@ -1,0 +1,40 @@
+-cp src/
+-cp test/
+-main beartek.lua_plugins.Testpls
+--each
+
+-cmd echo php
+-php bin/plsPHP
+
+--next
+-cmd echo python
+-python bin/plsPY/pls.py
+
+--next
+-cmd echo lua
+-lua bin/plsLUA/pls.lua
+
+--next
+-cmd echo java
+-java-lib extern/luaj-jse.jar
+-java bin/plsJAVA
+
+--next
+-cmd echo nodejs
+-lib hxnodejs
+-js bin/plsNODE/plsNODE.js
+
+--next
+-cmd echo js
+-js bin/plsJS/pls.js
+
+--next
+-cmd echo cpp
+-lib linc_luajit
+-cpp bin/plsCPP
+
+#--next
+#-cmd echo cs
+#-D net-ver=45
+#-net-lib extern/Neo.Lua.dll
+#-cs bin/plsCS

@@ -1,0 +1,14 @@
+{
+    "name": "lua-plugins",
+    "url" : "https://notabug.org/endes/haxe-lua-plugins",
+    "tags": ["lua", "plugin", "plugins", "addon", "native"],
+    "license": "GPL",
+    "releasenote": "Alpha release",
+    "description": "Library for use LUA VM natively in haxe and loading lua plugins.",
+    "version": "0.1.0",
+    "classPath": "src/",
+    "contributors": ["endes"],
+    "dependencies": {
+      "linc_luajit": "0.0.2"
+    }
+}
